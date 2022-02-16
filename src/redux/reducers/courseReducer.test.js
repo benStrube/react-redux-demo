@@ -36,7 +36,7 @@ it("should update course when passed UPDATE_COURSE_SUCCESS", () => {
     { id: 3, title: "C" },
   ];
 
-  const course = { ud: 2, title: "New Title" };
+  const course = { id: 2, title: "New Title" };
   const action = actions.updateCourseSuccess(course);
 
   //act
